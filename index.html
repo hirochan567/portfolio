@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>ひろちゃん　ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body oncontextmenu="return false;">
+ <div class="wrapper">
+    <!-- header -->
+    <header class="header">
+   
+      <div class="container"> 
+        <h1 class="header-h">
+          <a href="#">😺　ひろちゃん</a>
+         </h1>
+      <nav id="nav-pc" class="gnav">
+       <ul class="gnav-list">
+        <li class="gnav-item"><a href="#works">WORKS</a></li>
+        <li class="gnav-item"><a href="#skill">SKILL</a></li>
+        <li class="gnav-item"><a href="#about">ABOUT</a></li>
+        <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+      </ul>
+     </nav>
+    </div> 
+  </header>
+</div> 
+<div class="header-ss">  
+  <!-- <div class="header-sp">   -->
+    <h1 class="header-h">
+    <a href="#">😺　ひろちゃん</a>
+   </h1>
+
+   <!-- <div class="menu-sp">   -->
+    <img id="menu-sp" src="button-menu.png" alt="ナビゲーションを開く"
+    onclick="document.getElementById('nav-sp').style.display = 'block'">
+  </div>   
+<!-- </div>   -->
+  <nav id="nav-sp">
+      <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img
+              src="logo-sp.png" alt="トップページに戻る"></a>
+      <a class="menu" href="#works"
+          onclick="document.getElementById('nav-sp').style.display = 'none'">WORKS</a>
+      <a class="menu" href="#skill"
+          onclick="document.getElementById('nav-sp').style.display = 'none'">SKILL</a>
+      <a class="menu" href="#about"
+          onclick="document.getElementById('nav-sp').style.display = 'none'">ABOUT</a>
+      <a class="menu" href="#contact"
+          onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+  </nav>
+<main>
+  <div class="box"  id="box" style="background-color: #fff0f5">
+    <div class="img">
+       <img src="hirocha-5n1.png" alt="">
+      <div id="newwords">今日も元気に　きっといいことがあるはず</div>
+    </div>
+  </div>  
+  <div class="color-tevt">
+    <div>色のボタンを<br>チョイスしてみて</div>
+      <div class="color-buttons" id="myButton">
+        <button type="button" class="color-button" data-color="#fffff0"  onclick="coBotton()" style="background-color: #fffff0">ivory</button>      
+        <button type="button" class="color-button" data-color="#fff8dc"  onclick="coBotton()" style="background-color: #fff8dc">silk</button>
+        <button type="button" class="color-button" data-color="#00ff00"  onclick="coBotton()" style="background-color: #00ff00">lime</button>
+        <button type="button" class="color-button" data-color="#ffd700"  onclick="coBotton()" style="background-color: #ffd700">gold</button>
+        <button type="button" class="color-button" data-color="#fffafa" onclick="coBotton()"  style="background-color: #fffafa">snow</button>
+        <button type="button" class="color-button" data-color="#fff0f5" onclick="coBotton()"  style="background-color: #fff0f5">pink</button>
+      </div>
+  </div> 
+</div><hr>
+<section class="skill section" id="skill">
+ <div class="slider">
+  <h2 class="title">SKILL</h2>
+  <div class="slides">
+    <button type="button" class="skill-button" data-no="0" onclick="writeToTextarea(0)"><img src="html.png" alt=""></button>
+    <button type="button" class="skill-button" data-no="1" onclick="writeToTextarea(1)"><img src="js.png" alt=""></button>
+    <button type="button" class="skill-button" data-no="2" onclick="writeToTextarea(2)"><img src="TS.jpg" alt=""></button>
+    <button type="button" class="skill-button" data-no="3" onclick="writeToTextarea(3)"><img src="Cursor.png" alt=""></button>
+    <button type="button" class="skill-button" data-no="4" onclick="writeToTextarea(4)"><img src="Mermaid.jpg" alt=""></button>
+    <button type="button" class="skill-button" data-no="5" onclick="openGitHubPage(); writeToTextarea(5);"><img src="GitHub.jpg" alt=""></button>
+  </div>
+</div>
+<div class="techne">
+  <div class="tetext">Technology</div>
+  <div class="explanation">
+  <textarea id="textArea" class="center-textarea" rows="14" cols="50">
+  　情報社会において、変化波はイノベーションの原動力
+  となってます。　その波は、従来の枠組みを打ち破り、
+  新たな可能性を切り開く力を秘めてます。
+  　例えば、人工知能の進化により、情報の収集と分析が
+  一瞬で行われるようになり、人々の意思決定プロセスが
+  劇的に変わった。これにより、ビジネスの世界ではより
+  迅速で的確な戦略が立てられ、実行力が向上してます。
+  　各種テクノロジーが融合することはにより　次の未来
+  社会がわくわくした楽しい生活を送れるよう　変化を
+  恐れず　それらを積極的に取り入れることが、未来を
+  切り開く鍵だと思います。
+  　私たちはこの波に乗り、斬新的イノベーションを起こ
+  す力を持っていることを確信してます。
+  </textarea>
+ </div>
+ <div class="buttonT">
+  <button type="button" onclick="displayText()">はじめに</button>
+ </div>
+</div>
+</section><hr>
+<section class="works section" id="works">
+  <div class="container">
+    <h2 class="title">WORKS</h2>
+    <div class="works-list">
+      <div class="list-text">リスポンシブルなデザインを重視した　フロントエンジニアリング
+        テクノロジ(HTML・CSS・Javascript )を中心に　画像や音楽
+        そして動画など　魅了するぺージの作成が得意です。
+      </div>
+      <a class="works-item" href="works-2.html">
+        <div class="works-img"><img src="html2.png" alt="html2" /></div>
+        <p class="works-name">プロフィールサイト</p>
+        <p class="works-info">お客様が自分でカスタマーズしたいとゆうニーズにピッタリの
+          WordPresは　当方にっとてもおすすめの方法であるとともに
+          こん後　ページを展開拡張させるのにピッタリのほうほうです。
+          </p>
+      </a>
+      <a class="works-item" href="works-3.html">
+        <div class="works-img"><img src="wordpress1.png" alt="WordPress" /></div>
+        <p class="works-name">美容室のHP</p>
+        <p class="works-info">イベントやキャンペインまた新規売り出しなど　PR効果抜群
+          ページや　マイページへの誘導やアンケイトによる分析など
+          マーケティング活動に役立つツールになると考えられます。
+          </p>
+      </a>
+      <a class="works-item" href="works-6.html">
+        <div class="works-img"><img src="wordpress2.png" alt="WordPress2" /></div>
+        <p class="works-name">大学のHP</p>
+        <p class="works-info">AMAZONのクラウドファンディングを利用してサービスを
+          作ることもおもしろい思います
+          是非サポートさせて頂ければと考えています
+        </p>
+      </a>
+   <a class="works-item" href="works-5.html">
+        <div class="works-img"><img src="xd.png"   alt="AdobeXD" /></div>
+        <p class="works-name">ITスクールのLP</p>
+        <p class="works-info">バックから考えても　簡単に作成できることで人気のあるRubyは
+          私たちにとっても　丁寧にシステム作りをすることにより
+          お客様のニーズに対応できると考えられます。
+          </p>
+      </div>
+   </a>
+</section>
+
+<section class="about" id="about">
+<br><br><br><br><br><br>
+  <div class="container">
+    <h2 class="title">ABOUT</h2>
+  </div>
+    <div class="sibata">
+      <div class="oichi"> 
+      <button type="button" onclick="fadeOutImage()"　>A　<br>表　示</button>
+      <button type="button" onclick="fadeInImage()">　I　<br>表　示</button>
+    </div>
+    <div class="profile">
+     <div class="fade-section">
+     <img id="fadeImage" src="oichi.jpg" alt="Oichi" class="fade-in">
+     <table border="1" id="infoTable">
+      <tr>
+        <th>項　　目　</th>
+        <th></th>
+        <th>内　　容　</th>
+      </tr>
+      <tr>
+        <td>　氏　名</td>
+        <td></td>
+        <td>　小嶋　博樹</td>
+      </tr>
+      <tr>
+        <td>　現　在</td>
+        <td></td>
+        <td>　福井市在住　64才　　男性　</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>　企画営会社の経営（HPやアパートなど）</td>
+      </tr>
+      <tr>
+        <td>　趣　味　</td>
+        <td></td>
+        <td>　絵の鑑賞　鉄道旅行</td>
+      </tr>
+      <tr>
+        <td>　経　歴</td> 
+        <td>　出身大学</td>
+        <td>　近畿大学商業経済</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>　図書館司書 統計資格 </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>　パソコン歴　</td>
+        <td>　Window3.1より</td>
+      </tr>
+  
+      <tr>
+        <td></td>
+        <td>　得意分野</td>
+        <td>　フロントエンジニア</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>　HTML CSS JavaScript</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>　在宅ワーク(希望)　</td>
+      </tr>
+     </table>
+    </div>
+   </div>
+</section><hr>
+
+<section class="contact section" id="contact">	
+  <div class="container">	
+    <h2 class="title">CONTACT</h2>
+    <p> お問い合わせ </p>
+  <div>
+   <table border="1">
+    <tr>  <th>メールアドレス:</th><th id="allowCopy">infoshop1357@gmail.com</th>	</tr>   
+   </table>
+  </div> 
+    <br>
+    誠にありがとうございます。<br>
+    上記のメルアドをCopyしてご利用ください <br>
+   宜しくお願い致します。   
+  </div> 
+  </section>
+  <!-- /contact -->
+  <div class="page-top" id="js-page-top">
+      <a href="#">  <span class="material-icons-outlined">expand_less</span></a>
+  </div> 
+</main>
+<!-- footer -->
+<footer class="footer">
+  <div class="copyright">&copy;hirocan</div>
+</footer>
+
+</body>
+</html>
